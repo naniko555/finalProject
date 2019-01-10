@@ -1,0 +1,73 @@
+.products{
+    width:60%;
+    height:800px;
+    border:solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    div{
+        width: 30%;
+        height:200px;
+        background-color: gray;
+        div:first-child{
+                margin-left:auto;
+                margin-right:auto;
+                width:50%;
+                height: 100px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                
+        }
+        p:nth-child(4){
+            color:#36c2ff;
+        }
+    }
+    
+    div:nth-child(1){
+        div:first-child{
+            background-image: url('../style/images/product-jacket.jpg');
+        }
+    }
+    div:nth-child(2){
+        div:first-child{
+            background-image: url('../style/images/product-shoos.jpg');
+        }
+    }
+    div:nth-child(3){
+        div:first-child{
+            background-image: url('../style/images/product-tshirt.jpg');
+        }
+    }
+    div:nth-child(4){
+        div:first-child{
+            background-image: url('../style/images/product-belt.jpg');
+        }
+    }
+    div:nth-child(5){
+        div:first-child{
+            background-image: url('../style/images/product-bag.jpg');
+        }
+    }
+    div:nth-child(6){
+        div:first-child{
+            background-image: url('../style/images/product-watch.jpg');
+        }
+    }
+    div:nth-child(7){
+        div:first-child{
+            background-image: url('../style/images/product-bag2.jpg');
+        }
+    }
+    div:nth-child(8){
+        div:first-child{
+            background-image: url('../style/images/product-jacket2.jpg');
+        }
+    }
+    div:nth-child(9){
+        div:first-child{
+            background-image: url('../style/images/product-bag3.jpg');
+        }
+   }
+  
+}
+/////////////////////////////////////////////////////////////
