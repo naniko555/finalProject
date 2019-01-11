@@ -1,0 +1,87 @@
+nav {
+  border: solid;
+  background-color: #030405;
+  display: flex;
+  justify-content: space-around; }
+  nav .logo {
+    background-repeat: no-repeat;
+    background-image: url("../../images/nav-epxlore.JPG");
+    height: 20px;
+    width: 20px; }
+  nav .navigation-ul {
+    display: flex;
+    justify-content: space-around; }
+    nav .navigation-ul li {
+      margin-left: 10px;
+      margin-right: 10px; }
+      nav .navigation-ul li a {
+        color: white; }
+      nav .navigation-ul li a:hover {
+        color: #36c2ff; }
+  nav .cartLogo {
+    background-image: url("../../images/nav-cart.JPG");
+    height: 20px;
+    width: 20px; }
+
+.detail {
+  width: 60%;
+  height: 1000px;
+  margin: auto; }
+  .detail .detail-largPhoto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: gray; }
+    .detail .detail-largPhoto-container div {
+      width: 20%;
+      height: 60%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("../style/images/bag-larg.JPG");
+      background-color: red; }
+  .detail .smallPhoto-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    width: 100%; }
+    .detail .smallPhoto-wrapper .smallPhoto-1 {
+      width: 15%;
+      height: 100%;
+      background-image: url("../style/images/bag-larg.JPG"); }
+    .detail .smallPhoto-wrapper .smallPhoto-2 {
+      width: 15%;
+      height: 100%;
+      background-image: url("../style/images/bag-larg.JPG"); }
+    .detail .smallPhoto-wrapper .smallPhoto-3 {
+      width: 15%;
+      height: 100%;
+      background-image: url("../style/images/bag-larg.JPG"); }
+  .detail .detail-wrapper {
+    margin-top: 50px;
+    margin: auto;
+    height: 200px;
+    width: 60%; }
+    .detail .detail-wrapper p {
+      text-align: center; }
+  .detail .detail-select-wrapper {
+    margin: auto;
+    margin-top: 50px;
+    height: 80px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between; }
+    .detail .detail-select-wrapper select {
+      width: 40%;
+      height: 50px; }
+  .detail .cart-button-wrapper {
+    margin: auto;
+    margin-top: 50px;
+    height: 80px;
+    width: 60%;
+    text-align: center; }
+    .detail .cart-button-wrapper button {
+      background-color: blue;
+      color: white; }

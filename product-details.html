@@ -3,29 +3,69 @@
 
 <head>
     <meta charset="utf-8" />
-
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" type="text/css" href="style/syle-product-details.css">
 </head>
 
 <body>
-    <section class="detail">
-        <div class="largPhoto">
+    <nav>
+        <div class="logo"></div>
+        <div class="navigation">
+            <ul class="navigation-ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="product-details.html">Product</a></li>
+                <li><a href="product-cart.html">Cart</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </div>
+        <div class="cartLogo"></div>
+    </nav>
 
+
+    <section class="detail">
+        <div class="detail-largPhoto-container">
+            <div></div>
         </div>
+
         <div class="smallPhoto-wrapper">
-            <div class="smallPhoto-1">
-            </div>
-            <div class="smallPhoto-2">
-            </div>
-            <div class="smallPhoto-3">
-            </div>
+            <div class="smallPhoto-1"></div>
+            <div class="smallPhoto-2"></div>
+            <div class="smallPhoto-3"></div>
         </div>
-        <p> Bag of ruposhi</p>
-        <p>$28</p>
-        <p>lorem ipsum</p>
-        
+        <!--end of smallPhoto-wrapper-->
+        <div class="detail-wrapper">
+            <p> Bag of ruposhi</p>
+            <p>$28</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries,</p>
+        </div>
+        <!--end of detailWrapper-->
+
+        <div class="detail-select-wrapper">
+            <select>
+                <option value="" disabled selected hidden>Color</option>
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="black">black</option>
+                <option value="gray">gray</option>
+            </select>
+
+            <select>
+                <option value="" disabled selected hidden>Size</option>
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+        </div>
+
+        <div class="cart-button-wrapper">
+            <button> ADD TO CART</button>
+        </div>
+
     </section>
 
 
