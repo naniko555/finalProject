@@ -12,10 +12,13 @@
         div:first-child{
                 margin-left:auto;
                 margin-right:auto;
-                width:50%;
-                height: 100px;
+                margin-top:15px;
+                width:80px;
+                height: 80px;
                 background-size: cover;
+                // background-size: 80px 80px;
                 background-repeat: no-repeat;
+                background-position: center;
                 
         }
         p:nth-child(4){
