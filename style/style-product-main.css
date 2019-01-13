@@ -1,0 +1,96 @@
+.product-colection {
+  width: 100%; }
+  .product-colection .div-discription-background {
+    background-color: #2B313A; }
+    .product-colection .div-discription-background .div-discription-wrapper {
+      margin-left: 50px; }
+      .product-colection .div-discription-background .div-discription-wrapper p {
+        color: #36C5FD; }
+      .product-colection .div-discription-background .div-discription-wrapper .p-discription {
+        width: 300px;
+        height: 130px;
+        display: inline-block;
+        font-size: 50px; }
+      .product-colection .div-discription-background .div-discription-wrapper .p-discription2 {
+        font-size: 20px; }
+      .product-colection .div-discription-background .div-discription-wrapper button {
+        background-color: #2A323A;
+        color: #3E4854;
+        width: 150px;
+        height: 50px; }
+  .product-colection .div-colection-items {
+    background-color: #F0F3F7;
+    height: 400px; }
+    .product-colection .div-colection-items .futured-items {
+      height: 150px; }
+      .product-colection .div-colection-items .futured-items p:first-child {
+        text-align: center;
+        font-size: 25px; }
+      .product-colection .div-colection-items .futured-items p:last-child {
+        text-align: center;
+        font-size: 15px; }
+    .product-colection .div-colection-items .items-wrapper {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-around; }
+      .product-colection .div-colection-items .items-wrapper .div-wrapper1 {
+        background-color: white;
+        width: 200px;
+        height: 200px; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper1 div {
+          margin: auto;
+          width: 50px;
+          height: 50px;
+          border: solid;
+          transform: translate(-50, 0);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          background-image: url("../style/images/product-bag4.jpg"); }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper1 p:nth-child(2) {
+          font-weight: bold; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper1 p:last-child {
+          color: #36C5FD; }
+      .product-colection .div-colection-items .items-wrapper .div-wrapper2 {
+        background-color: white;
+        width: 200px;
+        height: 200px; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper2 div {
+          margin: auto;
+          width: 50px;
+          height: 50px;
+          border: solid;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          background-image: url("../style/images/product-watch2.jpg"); }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper2 p:nth-child(2) {
+          font-weight: bold; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper2 p:last-child {
+          color: #36C5FD; }
+      .product-colection .div-colection-items .items-wrapper .div-wrapper3 {
+        width: 200px;
+        height: 200px;
+        background-color: white; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper3 div {
+          margin: auto;
+          width: 50px;
+          height: 50px;
+          border: solid;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          background-image: url("../style/images/product-bag.jpg"); }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper3 p:nth-child(2) {
+          font-weight: bold; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper3 p:last-child {
+          color: #36C5FD; }
+
+.popular-text-wrapper {
+  text-align: center;
+  margin: auto; }
+  .popular-text-wrapper p:first-child {
+    font-weight: bold;
+    font-size: 30px; }
+  .popular-text-wrapper p:last-child {
+    font-size: 20px; }

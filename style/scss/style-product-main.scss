@@ -1,0 +1,129 @@
+.product-colection{
+    width: 100%;
+    .div-discription-background{
+        background-color:#2B313A;
+
+        .div-discription-wrapper{
+            margin-left: 50px;
+            p{
+                color:#36C5FD;
+            }
+            .p-discription{
+                width:300px;
+                height: 130px;
+                display: inline-block;
+                // border: solid;
+                font-size: 50px;
+            }
+            .p-discription2{
+                // border: solid;
+                font-size: 20px;
+            }
+            button{
+                background-color: #2A323A;
+                color:#3E4854;
+                width: 150px;
+                height: 50px;
+            }
+        }
+    }//end of div-colection-background
+    .div-colection-items{
+        background-color:#F0F3F7;
+        height: 400px;
+        .futured-items{
+            height: 150px;
+            // border:solid;
+            p:first-child{
+                text-align: center;
+                font-size: 25px;
+               
+            }
+            p:last-child{
+                text-align: center;
+                font-size: 15px;
+            }
+        } //end of futured-items
+        .items-wrapper{
+            margin-bottom:20px;
+            display: flex;
+            justify-content: space-around;
+            .div-wrapper1{
+                background-color:white;
+                width:200px;
+                height: 200px;
+                div{
+                    margin:auto;
+                    width: 50px;
+                    height: 50px;
+                    border: solid;
+                    transform: translate(-50,0);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center; 
+                    background-image: url('../style/images/product-bag4.jpg');
+                }
+                p:nth-child(2){
+                    font-weight: bold;
+                }
+                p:last-child{
+                    color:#36C5FD;
+                }
+            }
+            .div-wrapper2{
+                background-color:white;
+                width:200px;
+                height: 200px;
+                div{
+                    margin:auto;
+                    width: 50px;
+                    height: 50px;
+                    border: solid;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center; 
+                    background-image: url('../style/images/product-watch2.jpg');
+                }
+                p:nth-child(2){
+                    font-weight: bold;
+                }
+                p:last-child{
+                    color:#36C5FD;
+                }
+         }
+            .div-wrapper3{
+                width:200px;
+                height: 200px;
+                background-color:white;
+                div{
+                    margin:auto;
+                    width: 50px;
+                    height: 50px;
+                    border: solid;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center; 
+                    background-image: url('../style/images/product-bag.jpg');
+                }
+                p:nth-child(2){
+                    font-weight: bold;
+                }
+                p:last-child{
+                    color:#36C5FD;
+                }
+            }
+        }//end of items-wrapper
+    } //end of div-colection-items
+}//end of product-colection
+/////////////////////////////////////////////////////////
+
+.popular-text-wrapper{
+    text-align: center;
+    margin:auto;
+    p:first-child{
+        font-weight: bold;
+        font-size:30px;
+    }
+    p:last-child{
+        font-size:20px;
+    }
+}
