@@ -83,3 +83,7 @@ nav {
         border: none;
         border-bottom: 2px solid red;
         display: block; }
+  .footer .footer-table hr {
+    border-top: 1px dotted #000;
+    background-color: gray;
+    /*Rest of stuff here*/ }

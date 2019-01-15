@@ -1,5 +1,30 @@
+nav {
+  border: solid;
+  background-color: #030405;
+  display: flex;
+  justify-content: space-around; }
+  nav .logo {
+    background-repeat: no-repeat;
+    background-image: url("../../images/nav-epxlore.JPG");
+    height: 20px;
+    width: 20px; }
+  nav .navigation-ul {
+    display: flex;
+    justify-content: space-around; }
+    nav .navigation-ul li {
+      margin-left: 10px;
+      margin-right: 10px; }
+      nav .navigation-ul li a {
+        color: white; }
+      nav .navigation-ul li a:hover {
+        color: #36c2ff; }
+  nav .cartLogo {
+    background-image: url("../../images/nav-cart.JPG");
+    height: 20px;
+    width: 20px; }
+
 .product-colection {
-  width: 100%; }
+  width: 1300px; }
   .product-colection .div-discription-background {
     background-color: #2B313A; }
     .product-colection .div-discription-background .div-discription-wrapper {
@@ -20,7 +45,8 @@
         height: 50px; }
   .product-colection .div-colection-items {
     background-color: #F0F3F7;
-    height: 400px; }
+    height: 636px;
+    padding-bottom: 135px; }
     .product-colection .div-colection-items .futured-items {
       height: 150px; }
       .product-colection .div-colection-items .futured-items p:first-child {
@@ -30,61 +56,80 @@
         text-align: center;
         font-size: 15px; }
     .product-colection .div-colection-items .items-wrapper {
+      width: 1005px;
+      padding-left: 130px;
+      padding-right: 130px;
       margin-bottom: 20px;
       display: flex;
       justify-content: space-around; }
       .product-colection .div-colection-items .items-wrapper .div-wrapper1 {
         background-color: white;
-        width: 200px;
-        height: 200px; }
+        width: 315px;
+        height: 388px;
+        padding-top: 40px; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper1 div {
           margin: auto;
-          width: 50px;
-          height: 50px;
-          border: solid;
+          width: 210px;
+          height: 125px;
           transform: translate(-50, 0);
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
           background-image: url("../style/images/product-bag4.jpg"); }
         .product-colection .div-colection-items .items-wrapper .div-wrapper1 p:nth-child(2) {
-          font-weight: bold; }
+          font-weight: bold;
+          margin-left: 26px; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper1 p:nth-child(3) {
+          font-weight: bold;
+          margin-left: 26px; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper1 p:last-child {
-          color: #36C5FD; }
+          color: #36C5FD;
+          margin-left: 26px; }
       .product-colection .div-colection-items .items-wrapper .div-wrapper2 {
         background-color: white;
-        width: 200px;
-        height: 200px; }
+        width: 315px;
+        height: 388px;
+        padding-top: 40px; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper2 div {
           margin: auto;
-          width: 50px;
-          height: 50px;
-          border: solid;
+          width: 210px;
+          height: 125px;
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
           background-image: url("../style/images/product-watch2.jpg"); }
         .product-colection .div-colection-items .items-wrapper .div-wrapper2 p:nth-child(2) {
-          font-weight: bold; }
+          font-weight: bold;
+          margin-left: 26px; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper2 p:nth-child(3) {
+          font-weight: bold;
+          margin-left: 26px; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper2 p:last-child {
-          color: #36C5FD; }
+          color: #36C5FD;
+          margin-left: 26px; }
       .product-colection .div-colection-items .items-wrapper .div-wrapper3 {
-        width: 200px;
-        height: 200px;
+        width: 315px;
+        height: 388px;
+        padding-top: 40px;
         background-color: white; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper3 div {
           margin: auto;
-          width: 50px;
-          height: 50px;
-          border: solid;
+          width: 210px;
+          height: 125px;
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
           background-image: url("../style/images/product-bag.jpg"); }
         .product-colection .div-colection-items .items-wrapper .div-wrapper3 p:nth-child(2) {
-          font-weight: bold; }
+          font-weight: bold;
+          margin-left: 26px;
+          display: inline-block; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper3 p:nth-child(3) {
+          font-weight: bold;
+          margin-left: 26px; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper3 p:last-child {
-          color: #36C5FD; }
+          color: #36C5FD;
+          margin-left: 26px; }
 
 .popular-text-wrapper {
   text-align: center;
@@ -95,17 +140,125 @@
   .popular-text-wrapper p:last-child {
     font-size: 20px; }
 
-.section-latest-news {
-  width: 100%;
-  height: 700px;
-  border: solid;
-  display: flex;
-  flex-direction: row; }
-  .section-latest-news .div-left-wrapper {
-    width: 800px;
-    height: 700px;
-    border: solid; }
-  .section-latest-news .div-right-wrapper {
-    width: 800px;
-    height: 700px;
-    border: solid; }
+.popular-products-section {
+  width: 1300px;
+  margin-left: 147px;
+  margin-right: 147px; }
+  .popular-products-section .popular-products-wrapper {
+    width: 1005px;
+    height: 705px;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .popular-products-section .popular-products-wrapper div {
+      width: 317px;
+      height: 337px;
+      background-color: gray; }
+      .popular-products-section .popular-products-wrapper div div:first-child {
+        margin-left: auto;
+        margin-right: auto;
+        width: 190px;
+        height: 175px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; }
+      .popular-products-section .popular-products-wrapper div p:nth-child(4) {
+        color: #36c2ff;
+        padding-left: 33px; }
+      .popular-products-section .popular-products-wrapper div p:nth-child(3) {
+        padding-left: 33px; }
+      .popular-products-section .popular-products-wrapper div p:nth-child(2) {
+        font-weight: bold;
+        padding-left: 33px; }
+    .popular-products-section .popular-products-wrapper div:nth-child(1) div:first-child {
+      background-image: url("../style/images/product-jacket.jpg"); }
+    .popular-products-section .popular-products-wrapper div:nth-child(2) div:first-child {
+      background-image: url("../style/images/product-shoos.jpg"); }
+    .popular-products-section .popular-products-wrapper div:nth-child(3) div:first-child {
+      background-image: url("../style/images/product-tshirt.jpg"); }
+    .popular-products-section .popular-products-wrapper div:nth-child(4) div:first-child {
+      background-image: url("../style/images/product-belt.jpg"); }
+    .popular-products-section .popular-products-wrapper div:nth-child(5) div:first-child {
+      background-image: url("../style/images/product-bag.jpg"); }
+    .popular-products-section .popular-products-wrapper div:nth-child(6) div:first-child {
+      background-image: url("../style/images/product-watch.jpg"); }
+    .popular-products-section .popular-products-wrapper div:nth-child(7) div:first-child {
+      background-image: url("../style/images/product-bag2.jpg"); }
+    .popular-products-section .popular-products-wrapper div:nth-child(8) div:first-child {
+      background-image: url("../style/images/product-jacket2.jpg"); }
+    .popular-products-section .popular-products-wrapper div:nth-child(9) div:first-child {
+      background-image: url("../style/images/product-bag3.jpg"); }
+
+.subscribe-section {
+  width: 1300px;
+  height: 280px;
+  background-color: blue; }
+
+.latest-news-section {
+  width: 1300px;
+  padding-left: 150px;
+  padding-right: 150px; }
+  .latest-news-section .latest-news {
+    width: 1003px;
+    height: 696px;
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .latest-news-section .latest-news .div-left-wrapper {
+      width: 384px;
+      height: 100%;
+      border: solid;
+      background-color: white; }
+      .latest-news-section .latest-news .div-left-wrapper .div-left-wrapper-background {
+        height: 352px;
+        background-image: url("../style/images/boy1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .latest-news-section .latest-news .div-left-wrapper h2 {
+        font-weight: bold; }
+      .latest-news-section .latest-news .div-left-wrapper p {
+        width: 325px;
+        height: 222px;
+        display: inline-block;
+        color: #808EB1; }
+    .latest-news-section .latest-news .div-right-wrapper {
+      width: 593px;
+      height: 100%;
+      border: solid;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .latest-news-section .latest-news .div-right-wrapper .wrapper-up {
+        height: 352px; }
+        .latest-news-section .latest-news .div-right-wrapper .wrapper-up .wrapper-up-background {
+          height: 227px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-image: url("../style/images/boy2.jpg"); }
+        .latest-news-section .latest-news .div-right-wrapper .wrapper-up .wrapper-up-text {
+          height: 125px;
+          background-color: #9ba5bd; }
+          .latest-news-section .latest-news .div-right-wrapper .wrapper-up .wrapper-up-text p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: #808EB1; }
+      .latest-news-section .latest-news .div-right-wrapper .wrapper-down {
+        height: 300px;
+        margin-bottom: 50px; }
+        .latest-news-section .latest-news .div-right-wrapper .wrapper-down .wrapper-down-background {
+          height: 200px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-image: url("../style/images/girl-back.jpg"); }
+        .latest-news-section .latest-news .div-right-wrapper .wrapper-down .wrapper-down-text {
+          background-color: #9ba5bd;
+          height: 125px; }
+          .latest-news-section .latest-news .div-right-wrapper .wrapper-down .wrapper-down-text .h2 {
+            margin-top: 0px; }
+          .latest-news-section .latest-news .div-right-wrapper .wrapper-down .wrapper-down-text p {
+            color: #808EB1; }
