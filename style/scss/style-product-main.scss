@@ -40,10 +40,16 @@ nav{
 
 .product-colection{
     width: 1300px;
-    .div-discription-background{
-        background-color:#2B313A;
+   
 
+    .div-discription-background{
+        background-color: red;
+        
+    background-image:  url("../style/images/home-home.png");
+
+            height: 788px;
         .div-discription-wrapper{
+            
             margin-left: 50px;
             p{
                 color:#36C5FD;
@@ -208,14 +214,14 @@ nav{
     .popular-products-wrapper{
         width:1005px;
         height:705px;
-        border:solid;
+        // border:solid;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         div{
             width: 317px;
             height:337px;
-            background-color: gray;
+            background-color: #f1f3f8;
             div:first-child{
                     margin-left:auto;
                     margin-right:auto;
@@ -243,49 +249,37 @@ nav{
         
         div:nth-child(1){
             div:first-child{
-                background-image: url('../style/images/product-jacket.jpg');
+                background-image: url('../style/images/product-jacket.png');
             }
         }
         div:nth-child(2){
             div:first-child{
-                background-image: url('../style/images/product-shoos.jpg');
+                background-image: url('../style/images/home-product-bag.png');
             }
         }
         div:nth-child(3){
             div:first-child{
-                background-image: url('../style/images/product-tshirt.jpg');
+                background-image: url('../style/images/home-product-blue-jacket.png');
             }
         }
         div:nth-child(4){
             div:first-child{
-                background-image: url('../style/images/product-belt.jpg');
+                background-image: url('../style/images/home-product-watch.png');
             }
         }
         div:nth-child(5){
             div:first-child{
-                background-image: url('../style/images/product-bag.jpg');
+                background-image: url('../style/images/home-product-belt.png');
+
             }
         }
         div:nth-child(6){
             div:first-child{
-                background-image: url('../style/images/product-watch.jpg');
+                background-image: url('../style/images/home-product-shoos.png');
             }
         }
-        div:nth-child(7){
-            div:first-child{
-                background-image: url('../style/images/product-bag2.jpg');
-            }
-        }
-        div:nth-child(8){
-            div:first-child{
-                background-image: url('../style/images/product-jacket2.jpg');
-            }
-        }
-        div:nth-child(9){
-            div:first-child{
-                background-image: url('../style/images/product-bag3.jpg');
-            }
-       }
+     
+    
       
     } //end of popoular-products-wrappe
 } //end of popular-products-section
@@ -293,7 +287,25 @@ nav{
 .subscribe-section{
     width: 1300px;
     height: 280px;
-    background-color: blue;
+    background-color: blue;    
+    background-image: url('../style/images/home-newsletter-background.png');
+    padding-top:170px;
+    .subscribe-section-button-holder{
+        // border:solid;
+
+        input{
+            border-radius:17px 0 0 17px;
+            height: 47px;
+            width: 337px;
+        }
+        .btn.btn-primary{
+            height: 47px;
+            width: 120px;
+            border-radius:0 17px 17px 0;
+        }
+
+    }
+  
 }
 
 
@@ -304,15 +316,15 @@ nav{
     .latest-news{
         width:1003px;
         height: 696px;
-        border: solid;
+        // border: solid;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         .div-left-wrapper{
             width: 384px;
             height: 100%;
-            border:solid;
-            background-color: white;
+            // border:solid;
+            background-color: #F1F3F8;
             .div-left-wrapper-background{
                 height: 352px;
                 background-image: url('../style/images/boy1.jpg');
@@ -322,6 +334,9 @@ nav{
             }
             h2{
                 font-weight: bold;
+                font-size: 25px;
+                margin-top:25px;
+                margin-bottom: 25px;
             }
             p{
                 width: 325px;
@@ -334,15 +349,18 @@ nav{
             
             width: 593px;
             height: 100%;
-            border:solid;
+            // border:solid;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            
             .wrapper-up{
                 
-                height: 352px;
+                // height: 352px;
+                background-color: #F1F3F8;
+                margin-bottom: 25px;
                 .wrapper-up-background{
-                    height: 227px;
+                    height: 226px;
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;
@@ -351,21 +369,30 @@ nav{
                 }
                 .wrapper-up-text{
                     height: 125px;
-                    background-color: rgb(155, 165, 189);
-                    .h2{
-                    
+                    h2{
+
+                        font-weight: bold;
+                        font-size: 20px;
+                      
                     }
                     p{
+                        height: 54px;
+                        width:554px;
                         margin-top: 0px;
                         margin-bottom: 0px;
                         color:#808EB1;
+                        
+                        font-size:14px;
+
                     }
                 }
             }
 
             .wrapper-down{
-                height: 300px;
+                // height: 315px;
                 margin-bottom: 50px;
+                background-color: #F1F3F8;
+                margin-top:20px;
                 .wrapper-down-background{
                     height: 200px;
                     background-repeat: no-repeat;
@@ -374,15 +401,23 @@ nav{
                     background-image: url('../style/images/girl-back.jpg')
                 }
                 .wrapper-down-text{
-                    background-color: rgb(155, 165, 189);
-                    height: 125px;
-                    .h2{
-                        margin-top:0px;
-                    }
+                    height: 103px;
+                  
+                    h2{
 
+                        font-weight: bold;
+                        font-size: 20px;
+                      
+                    }
                     p{
-                        
+                        height: 54px;
+                        width:554px;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
                         color:#808EB1;
+                        
+                        font-size:14px;
+
                     }
                 }
                 
@@ -390,4 +425,71 @@ nav{
         }//end of div-right-wrapper
     } //end of lates-news
 }//end of latest-news section
+
+
+////////////////////////////////////////////////////////////
+
+
+///////////////////////
+.footer{
+    widows: 100%;
+    height: 400px;
+    background-color: #F1F3F8;
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+    .footer-div-explore{
+        width: 20px;
+        p{
+            color:red;
+            display: inline;
+            width: 20px;
+        }
+    } 
+        .footer-table{
+            
+            table{
+                border-collapse: separate;
+                border-spacing: 15px;
+                th{
+                    color:#36c2ff;
+                    text-align: left;
+                }
+                .td-explore{
+                    width:20%;
+                    }
+                .td-sign-up{
+                    // width:196px;
+                    // display: flex;
+                    // flex-direction: column;
+                    vertical-align:top;
+                    input[type=text]{
+                        border: none;
+                        border-bottom: 2px solid black;
+                        display:block;
+                        height: 25px;
+                        width:196px;
+                    }
+                    input[type=password]{
+                        border: none;
+                        border-bottom: 2px solid black;
+                        display: block;
+                        height: 25px;
+                        width:196px;
+    
+                    }
+                    button{
+                        color:white;
+                        width:196px;
+                    }
+                }
+        }
+        hr {
+            border-top:1px dotted #000;
+            background-color: gray;
+            /*Rest of stuff here*/
+        }
+        } //end of footer table
+       
+    }
 
