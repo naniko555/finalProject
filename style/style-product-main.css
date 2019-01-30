@@ -174,13 +174,17 @@
           font-weight: bold; }
 
 .popular-text-wrapper {
-  text-align: center;
-  margin: auto; }
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px; }
   .popular-text-wrapper p:first-child {
     font-weight: bold;
-    font-size: 30px; }
-  .popular-text-wrapper p:last-child {
     font-size: 20px; }
+  .popular-text-wrapper p:last-child {
+    color: #808EB1;
+    font-size: 15px; }
 
 .popular-products-section {
   width: 1300px;
@@ -230,32 +234,55 @@
   height: 280px;
   background-color: blue;
   background-image: url("../style/images/home-newsletter-background.png");
-  padding-top: 170px; }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 58px;
+  padding-bottom: 58px; }
+  .subscribe-section .subscribe-section-text-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .subscribe-section .subscribe-section-text-wrapper p:first-child {
+      font-weight: bold;
+      font-size: 20px; }
+    .subscribe-section .subscribe-section-text-wrapper p:last-child {
+      color: #808EB1;
+      font-size: 15px; }
   .subscribe-section .subscribe-section-button-holder {
-    font-size: 0; }
+    display: flex;
+    justify-content: center; }
     .subscribe-section .subscribe-section-button-holder input {
-      border-radius: 17px 0 0 17px;
+      border-radius: 25px 0 0 25px;
       height: 47px;
       width: 337px;
+      text-indent: 15px;
       display: inline-block;
-      font-size: 2em;
-      padding: 15px;
-      margin: 0;
-      box-sizing: border-box;
+      border: none;
       font-size: 15px; }
+    .subscribe-section .subscribe-section-button-holder input[type=text]:focus {
+      outline: none; }
     .subscribe-section .subscribe-section-button-holder .btn.btn-primary {
       height: 47px;
       width: 120px;
-      border-radius: 0 17px 17px 0;
-      margin: 0;
-      outline: 0 none;
-      padding: 0;
-      box-sizing: border-box; }
+      border-radius: 0 25px 25px 0; }
 
 .latest-news-section {
   width: 1300px;
   padding-left: 150px;
   padding-right: 150px; }
+  .latest-news-section .lates-news-section-texts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .latest-news-section .lates-news-section-texts p:first-child {
+      font-weight: bold;
+      font-size: 20px; }
+    .latest-news-section .lates-news-section-texts p:last-child {
+      color: #808EB1;
+      font-size: 15px; }
   .latest-news-section .latest-news {
     width: 1003px;
     height: 696px;
@@ -333,8 +360,7 @@
             font-size: 14px; }
 
 .footer {
-  widows: 100%;
-  height: 400px;
+  width: 1300px;
   background-color: #F1F3F8;
   display: flex;
   justify-content: space-between;
@@ -360,14 +386,18 @@
         border-bottom: 2px solid black;
         display: block;
         height: 25px;
-        width: 196px; }
+        width: 196px;
+        background-color: #F1F3F8; }
       .footer .footer-table table .td-sign-up input[type=password] {
+        margin-top: 20px;
         border: none;
         border-bottom: 2px solid black;
         display: block;
         height: 25px;
-        width: 196px; }
+        width: 196px;
+        background-color: #F1F3F8; }
       .footer .footer-table table .td-sign-up button {
+        margin-top: 20px;
         color: white;
         width: 196px; }
   .footer .footer-table hr {
