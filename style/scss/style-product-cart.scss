@@ -1,39 +1,56 @@
-nav{
-    border:solid;
-    background-color:#030405;
+.top-nav-bar-wrapper{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color:#030405;
+    width: 1300px;
+    .top-nav-bar{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-content:center;
+            .home-logo-explore{
+                height: 20px;
+                width: 88px;
+                display: inline-block;
+        
+            
+            }
+            .navigation-ul{
+            
+                display: inline-block;
+                width: 240px;
+                display: flex;
+                justify-content: space-between;
+
+            
+                li{
+                    display: block;
+                    a{
+                        color:white;
+                        display: block;
+                    }
+                    a:hover{
+                        color:#36c2ff;
+                    }
+                }
+                    
+            }
+            .home-logo-cart{
+            
+        
+                display: inline-block;
+                height: 20px;
+                width: 20px;
+        
+            }
+
+
     
+    }//end top-nav-bar
+}//end of top-nav-bar-wrapper
+////////////////////////////////////////////////////////////////////////////////////
 
-    .logo{
-        background-repeat: no-repeat;
-        background-image: url('../../images/nav-epxlore.JPG');
-        height: 20px;
-        width: 20px;
-     
-    }
-    .navigation-ul{
-        display: flex;
-        justify-content: space-around;
-        li{
-            margin-left: 10px;
-            margin-right: 10px;
-            a{
-                color:white;
-            }
-            a:hover{
-                color:#36c2ff;
-            }
-        }        
-    }
-    .cartLogo{
-        background-image: url('../../images/nav-cart.JPG');
-        height: 20px;
-        width: 20px;
-    }
-}//end of nav
-
-/////////////////////////
 .producs-table{
 display: flex;
 justify-content: center;

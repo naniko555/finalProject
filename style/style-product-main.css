@@ -1,50 +1,59 @@
-nav {
-  border: solid;
-  background-color: #030405;
+.top-nav-bar-wrapper {
   display: flex;
-  justify-content: space-around; }
-  nav .logo {
-    background-repeat: no-repeat;
-    background-image: url("../../images/nav-epxlore.JPG");
-    height: 20px;
-    width: 20px; }
-  nav .navigation-ul {
+  align-items: center;
+  height: 65px;
+  background-color: #030405;
+  width: 1300px; }
+  .top-nav-bar-wrapper .top-nav-bar {
+    width: 100%;
     display: flex;
-    justify-content: space-around; }
-    nav .navigation-ul li {
-      margin-left: 10px;
-      margin-right: 10px; }
-      nav .navigation-ul li a {
-        color: white; }
-      nav .navigation-ul li a:hover {
-        color: #36c2ff; }
-  nav .cartLogo {
-    background-image: url("../../images/nav-cart.JPG");
-    height: 20px;
-    width: 20px; }
+    justify-content: space-around;
+    align-content: center; }
+    .top-nav-bar-wrapper .top-nav-bar .home-logo-explore {
+      height: 20px;
+      width: 88px;
+      display: inline-block; }
+    .top-nav-bar-wrapper .top-nav-bar .navigation-ul {
+      display: inline-block;
+      width: 240px;
+      display: flex;
+      justify-content: space-between; }
+      .top-nav-bar-wrapper .top-nav-bar .navigation-ul li {
+        display: block; }
+        .top-nav-bar-wrapper .top-nav-bar .navigation-ul li a {
+          color: white;
+          display: block; }
+        .top-nav-bar-wrapper .top-nav-bar .navigation-ul li a:hover {
+          color: #36c2ff; }
+    .top-nav-bar-wrapper .top-nav-bar .home-logo-cart {
+      display: inline-block;
+      height: 20px;
+      width: 20px; }
 
 .product-colection {
   width: 1300px; }
   .product-colection .div-discription-background {
     background-color: red;
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
     background-image: url("../style/images/home-home.png");
     height: 788px; }
-    .product-colection .div-discription-background .div-discription-wrapper {
-      margin-left: 50px; }
-      .product-colection .div-discription-background .div-discription-wrapper p {
-        color: #36C5FD; }
-      .product-colection .div-discription-background .div-discription-wrapper .p-discription {
-        width: 300px;
-        height: 130px;
-        display: inline-block;
-        font-size: 50px; }
-      .product-colection .div-discription-background .div-discription-wrapper .p-discription2 {
-        font-size: 20px; }
-      .product-colection .div-discription-background .div-discription-wrapper button {
-        background-color: #2A323A;
-        color: #3E4854;
-        width: 150px;
-        height: 50px; }
+    .product-colection .div-discription-background .div-discription-wrapper p {
+      color: #36C5FD; }
+    .product-colection .div-discription-background .div-discription-wrapper .p-discription {
+      width: 300px;
+      height: 130px;
+      display: inline-block;
+      font-size: 50px; }
+    .product-colection .div-discription-background .div-discription-wrapper .p-discription2 {
+      font-size: 20px; }
+    .product-colection .div-discription-background .div-discription-wrapper button {
+      background-color: #2A323A;
+      color: #3E4854;
+      width: 150px;
+      height: 50px;
+      border-color: black; }
   .product-colection .div-colection-items {
     background-color: #F0F3F7;
     height: 636px;
@@ -53,85 +62,116 @@ nav {
       height: 150px; }
       .product-colection .div-colection-items .futured-items p:first-child {
         text-align: center;
-        font-size: 25px; }
+        font-size: 26px; }
       .product-colection .div-colection-items .futured-items p:last-child {
         text-align: center;
-        font-size: 15px; }
+        font-size: 18.5px; }
     .product-colection .div-colection-items .items-wrapper {
-      width: 1005px;
-      padding-left: 130px;
-      padding-right: 130px;
+      width: 1300px;
       margin-bottom: 20px;
       display: flex;
-      justify-content: space-around; }
+      justify-content: space-between;
+      padding-left: 130px;
+      padding-right: 130px; }
       .product-colection .div-colection-items .items-wrapper .div-wrapper1 {
         background-color: white;
         width: 315px;
         height: 388px;
         padding-top: 40px; }
-        .product-colection .div-colection-items .items-wrapper .div-wrapper1 div {
+        .product-colection .div-colection-items .items-wrapper .div-wrapper1 .div-background {
           margin: auto;
-          width: 210px;
-          height: 125px;
-          transform: translate(-50, 0);
+          width: 193px;
+          height: 205px;
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: contain;
           background-position: center;
-          background-image: url("../style/images/product-bag4.jpg"); }
+          background-image: url("../style/images/home-featured-brown-bag.png"); }
         .product-colection .div-colection-items .items-wrapper .div-wrapper1 p:nth-child(2) {
           font-weight: bold;
-          margin-left: 26px; }
+          margin-left: 26px;
+          margin-bottom: 0px;
+          margin-top: 15px; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper1 p:nth-child(3) {
           font-weight: bold;
-          margin-left: 26px; }
+          margin-left: 26px;
+          margin-bottom: 0px; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper1 .star-container {
+          margin-left: 26px;
+          margin-top: 20px; }
+          .product-colection .div-colection-items .items-wrapper .div-wrapper1 .star-container .checked {
+            color: orange; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper1 p:last-child {
           color: #36C5FD;
-          margin-left: 26px; }
+          margin-left: 26px;
+          margin-bottom: 0px;
+          margin-top: 20px;
+          font-weight: bold; }
       .product-colection .div-colection-items .items-wrapper .div-wrapper2 {
         background-color: white;
         width: 315px;
         height: 388px;
         padding-top: 40px; }
-        .product-colection .div-colection-items .items-wrapper .div-wrapper2 div {
+        .product-colection .div-colection-items .items-wrapper .div-wrapper2 .div-background {
           margin: auto;
-          width: 210px;
-          height: 125px;
+          width: 193px;
+          height: 205px;
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
-          background-image: url("../style/images/product-watch2.jpg"); }
+          background-image: url("../style/images/home-featured-watch.png"); }
         .product-colection .div-colection-items .items-wrapper .div-wrapper2 p:nth-child(2) {
           font-weight: bold;
-          margin-left: 26px; }
+          margin-left: 26px;
+          margin-bottom: 0px;
+          margin-top: 15px; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper2 p:nth-child(3) {
           font-weight: bold;
-          margin-left: 26px; }
+          margin-left: 26px;
+          margin-bottom: 0px; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper2 .star-container {
+          margin-left: 26px;
+          margin-top: 20px; }
+          .product-colection .div-colection-items .items-wrapper .div-wrapper2 .star-container .checked {
+            color: orange; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper2 p:last-child {
           color: #36C5FD;
-          margin-left: 26px; }
+          margin-left: 26px;
+          margin-bottom: 0px;
+          margin-top: 20px;
+          font-weight: bold; }
       .product-colection .div-colection-items .items-wrapper .div-wrapper3 {
         width: 315px;
         height: 388px;
         padding-top: 40px;
         background-color: white; }
-        .product-colection .div-colection-items .items-wrapper .div-wrapper3 div {
+        .product-colection .div-colection-items .items-wrapper .div-wrapper3 .div-background {
           margin: auto;
-          width: 210px;
-          height: 125px;
+          width: 193px;
+          height: 205px;
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: contain;
           background-position: center;
-          background-image: url("../style/images/product-bag.jpg"); }
+          background-image: url("../style/images/home-featured-red-bag.png"); }
         .product-colection .div-colection-items .items-wrapper .div-wrapper3 p:nth-child(2) {
           font-weight: bold;
           margin-left: 26px;
-          display: inline-block; }
+          margin-bottom: 0px;
+          margin-top: 15px; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper3 p:nth-child(3) {
           font-weight: bold;
-          margin-left: 26px; }
+          margin-left: 26px;
+          margin-bottom: 0px; }
+        .product-colection .div-colection-items .items-wrapper .div-wrapper3 .star-container {
+          margin-left: 26px;
+          margin-top: 20px; }
+          .product-colection .div-colection-items .items-wrapper .div-wrapper3 .star-container .checked {
+            color: orange; }
         .product-colection .div-colection-items .items-wrapper .div-wrapper3 p:last-child {
           color: #36C5FD;
-          margin-left: 26px; }
+          margin-left: 26px;
+          margin-bottom: 0px;
+          margin-top: 20px;
+          font-weight: bold; }
 
 .popular-text-wrapper {
   text-align: center;
@@ -191,14 +231,26 @@ nav {
   background-color: blue;
   background-image: url("../style/images/home-newsletter-background.png");
   padding-top: 170px; }
-  .subscribe-section .subscribe-section-button-holder input {
-    border-radius: 17px 0 0 17px;
-    height: 47px;
-    width: 337px; }
-  .subscribe-section .subscribe-section-button-holder .btn.btn-primary {
-    height: 47px;
-    width: 120px;
-    border-radius: 0 17px 17px 0; }
+  .subscribe-section .subscribe-section-button-holder {
+    font-size: 0; }
+    .subscribe-section .subscribe-section-button-holder input {
+      border-radius: 17px 0 0 17px;
+      height: 47px;
+      width: 337px;
+      display: inline-block;
+      font-size: 2em;
+      padding: 15px;
+      margin: 0;
+      box-sizing: border-box;
+      font-size: 15px; }
+    .subscribe-section .subscribe-section-button-holder .btn.btn-primary {
+      height: 47px;
+      width: 120px;
+      border-radius: 0 17px 17px 0;
+      margin: 0;
+      outline: 0 none;
+      padding: 0;
+      box-sizing: border-box; }
 
 .latest-news-section {
   width: 1300px;

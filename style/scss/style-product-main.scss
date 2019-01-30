@@ -1,56 +1,72 @@
 
-
-nav{
-    border:solid;
-    background-color:#030405;
+.top-nav-bar-wrapper{
     display: flex;
-    justify-content: space-around;
-    
+    align-items: center;
+    height: 65px;
+    background-color:#030405;
+    width: 1300px;
+    .top-nav-bar{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-content:center;
+            .home-logo-explore{
+                height: 20px;
+                width: 88px;
+                display: inline-block;
+        
+            
+            }
+            .navigation-ul{
+            
+                display: inline-block;
+                width: 240px;
+                display: flex;
+                justify-content: space-between;
 
-    .logo{
-        background-repeat: no-repeat;
-        background-image: url('../../images/nav-epxlore.JPG');
-        height: 20px;
-        width: 20px;
-     
-    }
-    .navigation-ul{
-        display: flex;
-        justify-content: space-around;
-        li{
-            margin-left: 10px;
-            margin-right: 10px;
-            a{
-                color:white;
+            
+                li{
+                    display: block;
+                    a{
+                        color:white;
+                        display: block;
+                    }
+                    a:hover{
+                        color:#36c2ff;
+                    }
+                }
+                    
             }
-            a:hover{
-                color:#36c2ff;
+            .home-logo-cart{
+            
+        
+                display: inline-block;
+                height: 20px;
+                width: 20px;
+        
             }
-        }        
-    }
-    .cartLogo{
-        background-image: url('../../images/nav-cart.JPG');
-        height: 20px;
-        width: 20px;
-    }
-}//end of nav
+
+
+    
+    }//end top-nav-bar
+}//end of top-nav-bar-wrapper
 //////////////////////////////////////////////////////////
 
 
 
 .product-colection{
     width: 1300px;
-   
 
     .div-discription-background{
         background-color: red;
-        
-    background-image:  url("../style/images/home-home.png");
+        display: flex;
+        align-items: center;
+        padding-left:140px;
+       background-image:  url("../style/images/home-home.png");
 
             height: 788px;
         .div-discription-wrapper{
             
-            margin-left: 50px;
             p{
                 color:#36C5FD;
             }
@@ -70,6 +86,7 @@ nav{
                 color:#3E4854;
                 width: 150px;
                 height: 50px;
+                border-color:black;
             }
         }
     }//end of div-colection-background
@@ -83,51 +100,63 @@ nav{
             // border:solid;
             p:first-child{
                 text-align: center;
-                font-size: 25px;
+                font-size: 26px;
                
             }
             p:last-child{
                 text-align: center;
-                font-size: 15px;
+                font-size: 18.5px;
             }
         } //end of futured-items
 
         .items-wrapper{
-            width: 1005px;
-            padding-left:130px;
-            padding-right:130px;
+            width: 1300px;
+        
             margin-bottom:20px;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
+            padding-left:130px;
+            padding-right: 130px;
             .div-wrapper1{
                 background-color:white;
                 width:315px;
                 height: 388px;
                 padding-top:40px;
-                div{
+                .div-background{
                     margin:auto;
-                    width: 210px;
-                    height: 125px;
-                    transform: translate(-50,0);
+                    width: 193px;
+                    height: 205px;
                     background-repeat: no-repeat;
-                    background-size: cover;
+                    background-size: contain;
                     background-position: center; 
-                    background-image: url('../style/images/product-bag4.jpg');
+                    background-image: url('../style/images/home-featured-brown-bag.png');
                 }
                 p:nth-child(2){
                     font-weight: bold;
                     margin-left:26px;
-
+                    margin-bottom: 0px;
+                    margin-top:15px;
                 }
                 p:nth-child(3){
                     font-weight: bold;
                     margin-left:26px;
+                    margin-bottom: 0px;
 
                 }
+                .star-container{
+                    margin-left:26px;
+                    margin-top:20px;
+                    .checked {
+                        color: orange;
+                      }
+                }
+                
                 p:last-child{
                     color:#36C5FD;
                     margin-left:26px;
-
+                    margin-bottom: 0px;
+                    margin-top:20px;
+                    font-weight: bold;
                 }
             }
             .div-wrapper2{
@@ -135,29 +164,41 @@ nav{
                 width:315px;
                 height: 388px;
                 padding-top:40px;
-                div{
+                .div-background{
                     margin:auto;
-                    width: 210px;
-                    height: 125px;
+                    width: 193px;
+                    height: 205px;
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center; 
-                    background-image: url('../style/images/product-watch2.jpg');
+                    background-image: url('../style/images/home-featured-watch.png');
                 }
                 p:nth-child(2){
                     font-weight: bold;
                     margin-left:26px;
-
+                    margin-bottom: 0px;
+                    margin-top:15px;
                 }
                 p:nth-child(3){
                     font-weight: bold;
                     margin-left:26px;
+                    margin-bottom: 0px;
 
                 }
+                .star-container{
+                    margin-left:26px;
+                    margin-top:20px;
+                    .checked {
+                        color: orange;
+                      }
+                }
+                
                 p:last-child{
                     color:#36C5FD;
                     margin-left:26px;
-
+                    margin-bottom: 0px;
+                    margin-top:20px;
+                    font-weight: bold;
                 }
          }
             .div-wrapper3{
@@ -165,28 +206,42 @@ nav{
                 height: 388px;
                 padding-top:40px;
                 background-color:white;
-                div{
+                .div-background{
                     margin:auto;
-                    width: 210px;
-                    height: 125px;
+                    width: 193px;
+                    height: 205px;
                     background-repeat: no-repeat;
-                    background-size: cover;
+                    background-size: contain;
                     background-position: center; 
-                    background-image: url('../style/images/product-bag.jpg');
+                    background-image: url('../style/images/home-featured-red-bag.png');
                 }
                 p:nth-child(2){
                     font-weight: bold;
                     margin-left:26px;
-                    display: inline-block;
+                    margin-bottom: 0px;
+                    margin-top:15px;
+
                 }
                 p:nth-child(3){
                     font-weight: bold;
                     margin-left:26px;
+                    margin-bottom: 0px;
 
                 }
+                .star-container{
+                    margin-left:26px;
+                    margin-top:20px;
+                    .checked {
+                        color: orange;
+                      }
+                }
+                
                 p:last-child{
                     color:#36C5FD;
                     margin-left:26px;
+                    margin-bottom: 0px;
+                    margin-top:20px;
+                    font-weight: bold;
                 }
             }
         }//end of items-wrapper
@@ -292,16 +347,30 @@ nav{
     padding-top:170px;
     .subscribe-section-button-holder{
         // border:solid;
-
+        
+            font-size:0;
+        
         input{
             border-radius:17px 0 0 17px;
             height: 47px;
             width: 337px;
+
+            display: inline-block;
+            font-size: 2em;
+            padding: 15px;
+            margin:0;
+            box-sizing:border-box;
+            font-size:15px;
         }
         .btn.btn-primary{
             height: 47px;
             width: 120px;
             border-radius:0 17px 17px 0;
+
+            margin: 0;
+            outline: 0 none;
+            padding: 0;
+            box-sizing:border-box;
         }
 
     }
