@@ -33,7 +33,6 @@
 .product-colection {
   width: 1300px; }
   .product-colection .div-discription-background {
-    background-color: red;
     display: flex;
     align-items: center;
     padding-left: 140px;

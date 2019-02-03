@@ -30,65 +30,123 @@
       height: 20px;
       width: 20px; }
 
-.detail {
-  width: 60%;
-  height: 1000px;
-  margin: auto; }
-  .detail .detail-largPhoto-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 100%;
-    background-color: gray; }
-    .detail .detail-largPhoto-container div {
-      width: 20%;
-      height: 60%;
+.detail-wrapper {
+  width: 1300px;
+  height: 1017px; }
+  .detail-wrapper .detail {
+    width: 822px;
+    margin: auto;
+    border: solid;
+    border-color: #F1F3F8; }
+    .detail-wrapper .detail .detail-largPhoto-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 455px;
+      width: 100%;
+      background-color: #F1F3F8;
+      background-image: url("../style/images/detail-big-bag.png");
       background-repeat: no-repeat;
-      background-size: cover;
-      background-image: url("../style/images/bag-larg.JPG");
-      background-color: red; }
-  .detail .smallPhoto-wrapper {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    height: 150px;
-    width: 100%; }
-    .detail .smallPhoto-wrapper .smallPhoto-1 {
-      width: 15%;
-      height: 100%;
-      background-image: url("../style/images/bag-larg.JPG"); }
-    .detail .smallPhoto-wrapper .smallPhoto-2 {
-      width: 15%;
-      height: 100%;
-      background-image: url("../style/images/bag-larg.JPG"); }
-    .detail .smallPhoto-wrapper .smallPhoto-3 {
-      width: 15%;
-      height: 100%;
-      background-image: url("../style/images/bag-larg.JPG"); }
-  .detail .detail-wrapper {
-    margin-top: 50px;
-    margin: auto;
-    height: 200px;
-    width: 60%; }
-    .detail .detail-wrapper p {
+      background-size: contain;
+      background-position: center; }
+    .detail-wrapper .detail .smallPhoto-wrapper {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      height: 137px;
+      width: 100%;
+      margin-bottom: 60px; }
+      .detail-wrapper .detail .smallPhoto-wrapper .smallPhoto-1 {
+        margin-left: 95px;
+        width: 189px;
+        height: 100%;
+        background-image: url("../style/images/detail-bag-left.png"); }
+      .detail-wrapper .detail .smallPhoto-wrapper .smallPhoto-2 {
+        width: 189px;
+        height: 100%;
+        background-image: url("../style/images/detail-bag-center.png"); }
+      .detail-wrapper .detail .smallPhoto-wrapper .smallPhoto-3 {
+        margin-right: 95px;
+        width: 189px;
+        height: 100%;
+        background-image: url("../style/images/detail-bag-right.png"); }
+    .detail-wrapper .detail .detail-wrapper {
+      margin-top: 50px;
+      margin: auto;
+      height: 200px;
+      width: 60%; }
+      .detail-wrapper .detail .detail-wrapper p:nth-child(1) {
+        text-align: center;
+        font-weight: bold;
+        font-size: 28px; }
+      .detail-wrapper .detail .detail-wrapper p:nth-child(2) {
+        text-align: center;
+        color: #36C2FF;
+        font-size: 20px;
+        font-weight: bold; }
+    .detail-wrapper .detail .detail-select-wrapper {
+      margin: auto;
+      margin-top: 50px;
+      height: 80px;
+      width: 60%;
+      display: flex;
+      justify-content: space-between; }
+      .detail-wrapper .detail .detail-select-wrapper select {
+        width: 186px;
+        height: 41px; }
+    .detail-wrapper .detail .cart-button-wrapper {
+      margin: auto;
+      margin-top: 50px;
+      width: 100%;
+      margin-bottom: 60px;
       text-align: center; }
-  .detail .detail-select-wrapper {
-    margin: auto;
-    margin-top: 50px;
-    height: 80px;
-    width: 60%;
-    display: flex;
-    justify-content: space-between; }
-    .detail .detail-select-wrapper select {
-      width: 40%;
-      height: 50px; }
-  .detail .cart-button-wrapper {
-    margin: auto;
-    margin-top: 50px;
-    height: 80px;
-    width: 60%;
-    text-align: center; }
-    .detail .cart-button-wrapper button {
-      background-color: blue;
-      color: white; }
+      .detail-wrapper .detail .cart-button-wrapper .btn.btn-primary {
+        width: 181px;
+        height: 41px;
+        font-size: 15px; }
+
+.footer {
+  width: 1300px;
+  background-color: #F1F3F8;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px; }
+  .footer .footer-div-explore {
+    width: 20px; }
+    .footer .footer-div-explore p {
+      color: red;
+      display: inline;
+      width: 20px; }
+  .footer .footer-table table {
+    border-collapse: separate;
+    border-spacing: 15px; }
+    .footer .footer-table table th {
+      color: #36c2ff;
+      text-align: left; }
+    .footer .footer-table table .td-explore {
+      width: 20%; }
+    .footer .footer-table table .td-sign-up {
+      vertical-align: top; }
+      .footer .footer-table table .td-sign-up input[type=text] {
+        border: none;
+        border-bottom: 2px solid black;
+        display: block;
+        height: 25px;
+        width: 196px;
+        background-color: #F1F3F8; }
+      .footer .footer-table table .td-sign-up input[type=password] {
+        margin-top: 20px;
+        border: none;
+        border-bottom: 2px solid black;
+        display: block;
+        height: 25px;
+        width: 196px;
+        background-color: #F1F3F8; }
+      .footer .footer-table table .td-sign-up button {
+        margin-top: 20px;
+        color: white;
+        width: 196px; }
+  .footer .footer-table hr {
+    border-top: 1px dotted #000;
+    background-color: gray;
+    /*Rest of stuff here*/ }
