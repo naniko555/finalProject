@@ -1,8 +1,6 @@
 .products-grid {
   background-color: red; }
-  .products-grid .row:nth-child(1) div {
+  .products-grid .row div {
     border: solid;
     height: 305px;
     margin-bottom: 50px; }
-  .products-grid .row:nth-child(2) div {
-    border: solid; }

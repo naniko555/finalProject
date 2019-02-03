@@ -1,17 +1,13 @@
 .products-grid{
     background-color: red;
 
-    .row:nth-child(1){
+    .row{
         div{
             border:solid;
             height: 305px;
             margin-bottom: 50px;
         }
     }
-    .row:nth-child(2){
-        div{
-            border:solid;
-        }
-    }
+    
 }//end of products-grid
 
