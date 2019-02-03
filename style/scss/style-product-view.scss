@@ -1,13 +1,133 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.top-nav-bar-wrapper{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color:#030405;
+    width: 1300px;
+    .top-nav-bar{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-content:center;
+            .home-logo-explore{
+                height: 20px;
+                width: 88px;
+                display: inline-block;
+        
+            
+            }
+            .navigation-ul{
+            
+                display: inline-block;
+                width: 240px;
+                display: flex;
+                justify-content: space-between;
+
+            
+                li{
+                    display: block;
+                    a{
+                        color:white;
+                        display: block;
+                    }
+                    a:hover{
+                        color:#36c2ff;
+                    }
+                }
+                    
+            }
+            .home-logo-cart{
+            
+        
+                display: inline-block;
+                height: 20px;
+                width: 20px;
+        
+            }
+
+
+    
+    }//end top-nav-bar
+}//end of top-nav-bar-wrapper
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .products-grid{
     background-color: red;
-
+    margin-top:112px;
     .row{
-        div{
+        .product-wrapper{
             border:solid;
             height: 305px;
             margin-bottom: 50px;
+            background-color:#F1F3F8;
+            padding-bottom: 15px;
+            div{
+                height:45%;
+                width: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size:contain;
+            }
+
+            p:nth-child(2){
+                margin-top:35px;
+                font-weight: bold;
+            }
+            p:last-child{
+                color:#36C2FF;
+                font-weight: bold;
+               
+            }
         }
+        .product-wrapper:nth-child(1){
+            div{
+                background-image:url('../style/images/product-view-jacket-blue.png');
+            }
+        }
+        .product-wrapper:nth-child(2){
+            div{
+                background-image:url('../style/images/product-view-shoes.png');
+            }
+        }
+        .product-wrapper:nth-child(3){
+            div{
+                background-image:url('../style/images/product-view-tshirt.png');
+            }
+        }
+        .product-wrapper:nth-child(4){
+            div{
+                background-image:url('../style/images/product-view-belt.png');
+            }
+        }
+        .product-wrapper:nth-child(5){
+            div{
+                background-image:url('../style/images/product-view-beg1.png');
+            }
+        }
+        .product-wrapper:nth-child(6){
+            div{
+                background-image:url('../style/images/product-view-watch.png');
+            }
+        }
+        .product-wrapper:nth-child(7){
+            div{
+                background-image:url('../style/images/product-view-bag2.png');
+            }
+        }
+        .product-wrapper:nth-child(8){
+            div{
+                background-image:url('../style/images/product-view-jacket-black.png');
+            }
+        }
+        .product-wrapper:nth-child(9){
+            div{
+                background-image:url('../style/images/product-view-bag3.png');
+            }
+        }
+
     }
-    
+   
 }//end of products-grid
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

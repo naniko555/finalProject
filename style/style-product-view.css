@@ -1,6 +1,71 @@
+.top-nav-bar-wrapper {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background-color: #030405;
+  width: 1300px; }
+  .top-nav-bar-wrapper .top-nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center; }
+    .top-nav-bar-wrapper .top-nav-bar .home-logo-explore {
+      height: 20px;
+      width: 88px;
+      display: inline-block; }
+    .top-nav-bar-wrapper .top-nav-bar .navigation-ul {
+      display: inline-block;
+      width: 240px;
+      display: flex;
+      justify-content: space-between; }
+      .top-nav-bar-wrapper .top-nav-bar .navigation-ul li {
+        display: block; }
+        .top-nav-bar-wrapper .top-nav-bar .navigation-ul li a {
+          color: white;
+          display: block; }
+        .top-nav-bar-wrapper .top-nav-bar .navigation-ul li a:hover {
+          color: #36c2ff; }
+    .top-nav-bar-wrapper .top-nav-bar .home-logo-cart {
+      display: inline-block;
+      height: 20px;
+      width: 20px; }
+
 .products-grid {
-  background-color: red; }
-  .products-grid .row div {
+  background-color: red;
+  margin-top: 112px; }
+  .products-grid .row .product-wrapper {
     border: solid;
     height: 305px;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    background-color: #F1F3F8;
+    padding-bottom: 15px; }
+    .products-grid .row .product-wrapper div {
+      height: 45%;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .products-grid .row .product-wrapper p:nth-child(2) {
+      margin-top: 35px;
+      font-weight: bold; }
+    .products-grid .row .product-wrapper p:last-child {
+      color: #36C2FF;
+      font-weight: bold; }
+  .products-grid .row .product-wrapper:nth-child(1) div {
+    background-image: url("../style/images/product-view-jacket-blue.png"); }
+  .products-grid .row .product-wrapper:nth-child(2) div {
+    background-image: url("../style/images/product-view-shoes.png"); }
+  .products-grid .row .product-wrapper:nth-child(3) div {
+    background-image: url("../style/images/product-view-tshirt.png"); }
+  .products-grid .row .product-wrapper:nth-child(4) div {
+    background-image: url("../style/images/product-view-belt.png"); }
+  .products-grid .row .product-wrapper:nth-child(5) div {
+    background-image: url("../style/images/product-view-beg1.png"); }
+  .products-grid .row .product-wrapper:nth-child(6) div {
+    background-image: url("../style/images/product-view-watch.png"); }
+  .products-grid .row .product-wrapper:nth-child(7) div {
+    background-image: url("../style/images/product-view-bag2.png"); }
+  .products-grid .row .product-wrapper:nth-child(8) div {
+    background-image: url("../style/images/product-view-jacket-black.png"); }
+  .products-grid .row .product-wrapper:nth-child(9) div {
+    background-image: url("../style/images/product-view-bag3.png"); }
