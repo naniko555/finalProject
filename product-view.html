@@ -7,8 +7,24 @@
         <title>product-view</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-                integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+                integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+                crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" media="screen" href="style/style-product-view.css" />
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+                integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+                integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+                crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+                integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+                crossorigin="anonymous">
+
+
+
 
 </head>
 
@@ -19,7 +35,7 @@
 
                         <ul class="navigation-ul">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="product-details.html">Product</a></li>
+                                <li><a href="product-view.html">Product</a></li>
                                 <li><a href="product-cart.html">Cart</a></li>
                                 <li><a href="#">News</a></li>
                         </ul>
@@ -35,89 +51,334 @@
         <!--end of top-nav-bar-wrapper-->
         <!-- ////////////////////////////////////////////////////// -->
 
-        <div class="products-grid container">
-                <div class="row justify-content-between">
-                        <div class="product-wrapper col-md-3 col-sm-4">
-                                <div></div>
-                                <p>Jacket</p>
-                                <p>Dam kom thakta kina nen</p>
-                                <p>28$</p>
-                        </div>
-                        <div class="product-wrapper col-md-3 offset-md-1   offset-sm-1 col-sm-4">
-                                <div></div>
-                                <p>Shoes</p>
-                                <p>Dam kom thakta kina nen</p>
-                                <p>28$</p>
-                        </div>
-
-                        <div class="product-wrapper col-md-3 offset-md-1 col-sm-4  ">
-                                <div></div>
-                                <p>T-shirt</p>
-                                <p>Dam kom thakta kina nen</p>
-                                <p>28$</p>
-                        </div>
-
-                        <div class="product-wrapper col-md-3  offset-md-0 offset-sm-1 col col-sm-4">
-                                <div></div>
-                                <p>Belt</p>
-                                <p>Dam kom thakta kina nen</p>
-                                <p>28$</p>
-                        </div>
-                        <div class="product-wrapper col-md-3 offset-md-1 col-sm-4">
-                                <div></div>
-                                <p>Beg</p>
-                                <p>Dam kom thakta kina nen</p>
-                                <p>28$</p>
-                        </div>
-
-                        <div class="product-wrapper col-md-3 offset-md-1 offset-sm-1 col col-sm-4">
-                                <div></div>
-                                <p>Watch</p>
-                                <p>Dam kom thakta kina nen</p>
-                                <p>28$</p>
-                        </div>
-
-                        <div class="product-wrapper col-md-3 col-sm-4">
-                                <div></div>
-                                <p>Beg</p>
-                                <p>Dam kom thakta kina nen</p>
-                                <p>28$</p>
-                        </div>
-                        <div class="product-wrapper col-md-3 offset-md-0 offset-sm-1 col col-sm-4">
-                                <div></div>
-                                <p>Jacket</p>
-                                <p>Dam kom thakta kina nen</p>
-                                <p>28$</p>
-                        </div>
-
-                        <div class="product-wrapper col-md-3 offset-md-0 offset-sm-4 col-sm-4">
-                                <div></div>
-                                <p>Beg</p>
-                                <p>Dam kom thakta kina nen</p>
-                                <p>28$</p>
-                        </div>
 
 
+        <div class="mainContainer container">
+                <div class="row">
+                        <div class="left-wrapper-col-2  col-2 ">
+                                <!--manu bars will go here-->
+                                <div class="category-row  row mb-4">
+
+                                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                                data-target="#collapseExample" aria-expanded="false"
+                                                aria-controls="collapseExample">
+                                                СATEGORYS <i class="fas fa-caret-down"></i>
+                                        </button>
+
+                                        <div class="div-category collapse show" id="collapseExample">
+
+                                                <ul class="ul-categories">
+                                                        <li>T-shirt</li>
+                                                        <li>shirt</li>
+                                                        <li>Shoes</li>
+                                                        <li>Bags</li>
+                                                        <li>Jacket</li>
+                                                        <li>Sunglass</li>
+                                                        <li>Spray</li>
+                                                        <li>Cap</li>
+                                                        <li>Belt</li>
+                                                        <li>Jeans</li>
+                                                        <li>Shoes</li>
+                                                </ul>
+
+                                        </div>
+
+                                </div>
+                                <!--end of category-row-->
+
+                                <div class="colors-row  row mb-4">
+                                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                                data-target="#collapseSize" aria-expanded="false"
+                                                aria-controls="collapseExample">
+                                                COLOR <i class="fas fa-caret-down"></i>
+                                        </button>
+
+                                        <div class="div-colors collapse show" id="collapseSize">
+                                                <div class="first-row row m-2">
+
+                                                        <input type="radio" class=" col-4">
+                                                        <input type="radio" class="col-4">
+                                                        <input type="radio" class="col-4">
+
+                                                </div>
+                                                <div class="second-row row m-2">
+
+                                                        <input type="radio" class="col-4">
+                                                        <input type="radio" class="col-4">
+                                                        <input type="radio" class="col-4">
+
+
+                                                </div>
+
+                                        </div>
+
+                                </div>
+                                <!--end of colors-row -->
+
+
+                                <div class="size-row  row mb-4">
+                                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                                data-target="#collapseSize" aria-expanded="false"
+                                                aria-controls="collapseExample">
+                                                SIZE <i class="fas fa-caret-down"></i>
+                                        </button>
+
+                                        <div class="div-size collapse show" id="collapseSize">
+
+                                                <div class="first-row row m-2">
+
+                                                        <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                        id="checkbox-xl" value="option1">
+                                                                <label class="form-check-label"
+                                                                        for="checkbox-xl">xl</label>
+
+                                                        </div>
+
+                                                        <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                        id="checkbox-sl" value="option2">
+                                                                <label class="form-check-label"
+                                                                        for="checkbox-sl">SL</label>
+
+                                                        </div>
+
+                                                        <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                        id="inlineCheckbox3" value="option3">
+                                                                <label class="form-check-label"
+                                                                        for="inlineCheckbox3">M</label>
+
+                                                        </div>
+
+                                                </div>
+                                                <!--end of size first row -->
+
+
+                                                <div class="second-row row m-2">
+
+                                                        <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                        id="inlineCheckbox1" value="option1">
+                                                                <label class="form-check-label"
+                                                                        for="inlineCheckbox1">L</label>
+
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                        id="inlineCheckbox2" value="option2">
+                                                                <label class="form-check-label"
+                                                                        for="inlineCheckbox2">XXL</label>
+
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                        id="inlineCheckbox2" value="option2">
+                                                                <label class="form-check-label"
+                                                                        for="inlineCheckbox2">XXL</label>
+
+                                                        </div>
+
+                                                </div>
+                                                <!--end of size second row -->
+
+                                        </div>
+                                        <!--end of div-size-->
+
+
+                                </div>
+                                <!--end of size-row-->
+                                <div class="price-row  row">
+                                        <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                                data-target="#collapsePrice" aria-expanded="false"
+                                                aria-controls="collapseExample">
+                                                PRICE <i class="fas fa-caret-down"></i>
+                                        </button>
+
+                                        <div class="div-price collapse show" id="collapsePrice">
+                                                DWDWDW
+                                        </div>
+                                </div>
+                                <!--end of price-row-->
+
+
+
+
+                        </div>
+                        <!--end of left-wrapper-col-2 -->
+
+
+
+
+
+                        <!--end of menu bars columns-->
+                        <div class="col-9">
+                                <!--hole grid will go here-->
+                                <div class="products-grid container">
+                                        <div class="row justify-content-between">
+                                                <div class="product-wrapper col-12 col-md-4 col-sm-6">
+                                                        <div class="wrapper">
+                                                                <div></div>
+                                                                <p>Jacket</p>
+                                                                <p>Dam kom thakta kina nen</p>
+                                                                <p>28$</p>
+                                                        </div>
+
+                                                </div>
+                                                <div class="product-wrapper col-12 col-md-4 col-sm-6">
+                                                        <div class="wrapper">
+                                                                <div></div>
+                                                                <p>Shoes</p>
+                                                                <p>Dam kom thakta kina nen</p>
+                                                                <p>28$</p>
+                                                        </div>
+                                                </div>
+                                                <div class="product-wrapper col-12 col-md-4 col-sm-6">
+                                                        <div class="wrapper">
+                                                                <div></div>
+                                                                <p>T-shirt</p>
+                                                                <p>Dam kom thakta kina nen</p>
+                                                                <p>28$</p>
+                                                        </div>
+                                                </div>
+                                                <div class="product-wrapper col-12 col-md-4 col-sm-6">
+                                                        <div class="wrapper">
+                                                                <div></div>
+                                                                <p>Belt</p>
+                                                                <p>Dam kom thakta kina nen</p>
+                                                                <p>28$</p>
+                                                        </div>
+                                                </div>
+
+                                                <div class="product-wrapper col-12 col-md-4 col-sm-6">
+                                                        <div class="wrapper">
+                                                                <a href="product-details.html"><div></div></a>
+                                                                <p>Beg</p>
+                                                                <p>Dam kom thakta kina nen</p>
+                                                                <p>28$</p>
+                                                        </div>
+                                                </div>
+                                                <div class="product-wrapper col-12 col-md-4 col-sm-6">
+                                                        <div class="wrapper">
+                                                                <div></div>
+                                                                <p>Watch</p>
+                                                                <p>Dam kom thakta kina nen</p>
+                                                                <p>28$</p>
+                                                        </div>
+                                                </div>
+
+                                                <div class="product-wrapper col-12 col-md-4 col-sm-6">
+                                                        <div class="wrapper">
+                                                                <div></div>
+                                                                <p>Beg</p>
+                                                                <p>Dam kom thakta kina nen</p>
+                                                                <p>28$</p>
+                                                        </div>
+                                                </div>
+
+                                                <div class="product-wrapper col-12 col-md-4 col-sm-6">
+                                                        <div class="wrapper">
+                                                                <div></div>
+                                                                <p>Jacket</p>
+                                                                <p>Dam kom thakta kina nen</p>
+                                                                <p>28$</p>
+                                                        </div>
+                                                </div>
+                                                <div
+                                                        class="product-wrapper col-12 col-md-4 col-sm-6 offset-md-0 offset-sm-3 col-sm-6">
+                                                        <div class="wrapper">
+                                                                <div></div>
+                                                                <p>Beg</p>
+                                                                <p>Dam kom thakta kina nen</p>
+                                                                <p>28$</p>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <!--end of row-->
+                                        <nav aria-label="Page navigation example">
+                                                <ul class="pagination justify-content-center"" >
+                                                                  <li class=" page-item"><a class="page-link"
+                                                                href="#">Previous</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                        <li class="page-item"><a class="page-link" href="#">Next</a>
+                                                        </li>
+                                                </ul>
+                                        </nav>
+
+                                </div>
+                        </div>
+                        <!--end of grid columns-->
                 </div>
                 <!--end of row-->
 
+        </div>
+        <!--end of main conainer-->
 
-        </div>
-        <!--end of products-grid container-->
-<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<div class="container-wrapper container">
-        <div class="row">
-                <div class="test-col col-4" >
-                        <div class="test-col-wrapper">first</div>
-                </div>
-                <div class="test-col col-4">
-                        <div class="test-col-wrapper">second</div>
-                </div>
-                <div class="test-col col-4">
-                        <div class="test-col-wrapper">third</div>
-                </div>
-        </div>
-</div>
+        <section class="footer">
+                        <!-- <div class="footer-div-explore">
+                            <p>explore</p>
+                            <p>dadadadadadadadawdd
+                            </p>
+                        </div> -->
+                        <div class="footer-table">
+                            <table>
+                                <tr>
+                                    <th>explore</th>
+                                    <th>HELP</th>
+                                    <th>FOLLOW</th>
+                                    <th>EXPLORE</th>
+                                    <th>SIGN UP</th>
+                                </tr>
+                
+                
+                                <tr>
+                                    <td class="td-explore" rowspan="6">
+                                        is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        It has survived not only five centuries
+                                    </td>
+                                    <td>Newsletter</td>
+                                    <td>Twitter</td>
+                                    <td>Features</td>
+                
+                                    <td class="td-sign-up" rowspan="6">
+                                        <input type="text" placeholder="duecreation@gmail.com">
+                                        <input type="password" placeholder="password">
+                                        <button type="button" class="btn btn-primary">Go!</button>
+                
+                                    </td>
+                
+                                </tr>
+                                <tr>
+                                    <td>Blog</td>
+                                    <td>Facebook</td>
+                                    <td>Privacy</td>
+                
+                                </tr>
+                                <tr>
+                                    <td>Get paid</td>
+                                    <td>Istagram</td>
+                                    <td>Features</td>
+                                </tr>
+                                <tr>
+                                    <td>Sign in</td>
+                                    <td>Pinterest</td>
+                                    <td>Privacy</td>
+                                </tr>
+                                <tr>
+                                    <td>Sign up</td>
+                                    <td>Behance</td>
+                                    <td>Privacy</td>
+                                </tr>
+                            </table>
+                            <hr/>
+                        </div>
+                        <!--end of footer-table-->
+                     </section>
+
 
 
 

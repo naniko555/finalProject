@@ -52,82 +52,255 @@
 }//end of top-nav-bar-wrapper
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-.products-grid{
-    background-color: red;
-    margin-top:112px;
-    .row{
-        .product-wrapper{
-            border:solid;
-            height: 305px;
-            margin-bottom: 50px;
-            background-color:#F1F3F8;
-            padding-bottom: 15px;
-            div{
-                height:45%;
-                width: 100%;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size:contain;
-            }
+.mainContainer{
+    margin-top:115px;
+    margin-left:150px;
 
-            p:nth-child(2){
-                margin-top:35px;
-                font-weight: bold;
-            }
-            p:last-child{
-                color:#36C2FF;
-                font-weight: bold;
-               
+    .left-wrapper-col-2{
+         
+        .category-row{
+      
+        button{
+           width: 100%;
+        }
+        .div-category{
+            width: 100%;
+           border:solid;
+            .ul-categories{
+                list-style-type: none;
+                padding-left: 5px;
+              
             }
         }
-        .product-wrapper:nth-child(1){
-            div{
-                background-image:url('../style/images/product-view-jacket-blue.png');
-            }
-        }
-        .product-wrapper:nth-child(2){
-            div{
-                background-image:url('../style/images/product-view-shoes.png');
-            }
-        }
-        .product-wrapper:nth-child(3){
-            div{
-                background-image:url('../style/images/product-view-tshirt.png');
-            }
-        }
-        .product-wrapper:nth-child(4){
-            div{
-                background-image:url('../style/images/product-view-belt.png');
-            }
-        }
-        .product-wrapper:nth-child(5){
-            div{
-                background-image:url('../style/images/product-view-beg1.png');
-            }
-        }
-        .product-wrapper:nth-child(6){
-            div{
-                background-image:url('../style/images/product-view-watch.png');
-            }
-        }
-        .product-wrapper:nth-child(7){
-            div{
-                background-image:url('../style/images/product-view-bag2.png');
-            }
-        }
-        .product-wrapper:nth-child(8){
-            div{
-                background-image:url('../style/images/product-view-jacket-black.png');
-            }
-        }
-        .product-wrapper:nth-child(9){
-            div{
-                background-image:url('../style/images/product-view-bag3.png');
-            }
-        }
+      
+    }//end of category-row
+   .colors-row {
+    button{
+        width: 100%;
+     }
+     .div-colors{
+       width: 100%;
+       border:solid;
+       .first-row{
+          
+     
+       }
+       .second-row{
+
+       }
+
+
 
     }
-   
-}//end of products-grid
+   }
+   .size-row {
+    button{
+        width: 100%;
+     }
+     .div-size{
+       width: 100%;
+       border:solid;
+       .first-row{
+          
+     
+       }
+       .second-row{
+
+       }
+
+
+
+    }
+   }
+
+   .price-row{
+    button{
+        width: 100%;
+     }
+
+
+
+   }
+
+
+
+
+  } //end of   .left-wrapper-col-2
+    
+
+
+    .products-grid{
+        // background-color: red;
+        .row{
+            .product-wrapper{
+                margin-bottom: 50px;
+                padding-bottom: 15px;
+            
+                .wrapper{
+                    background-color:#F1F3F8;
+                    height: 305px;
+                    div{
+                        height:45%;
+                        width: 100%;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size:contain;
+                    }
+
+                    p:nth-child(2){
+                        margin-top:35px;
+                        font-weight: bold;
+                    }
+                    p:last-child{
+                        color:#36C2FF;
+                        font-weight: bold;
+                    
+                    }
+                        
+                } //end of .wrapper
+            
+            } //end of .product-wrapper
+            .product-wrapper:nth-child(1){
+                .wrapper{
+                    div{
+                        background-image:url('../style/images/product-view-jacket-blue.png');
+                    }
+                }
+            
+            }
+            .product-wrapper:nth-child(2){
+                .wrapper{
+                    div{
+                        background-image:url('../style/images/product-view-shoes.png');
+                    }
+                }
+            
+            }
+            .product-wrapper:nth-child(3){
+                .wrapper{
+                    div{
+                        background-image:url('../style/images/product-view-tshirt.png');
+                    }
+                }
+            
+            }
+            .product-wrapper:nth-child(4){
+                .wrapper{
+                    div{
+                        background-image:url('../style/images/product-view-belt.png');
+                    }
+                }
+            
+            }
+            .product-wrapper:nth-child(5){
+                .wrapper{
+                    div{
+                        background-image:url('../style/images/product-view-beg1.png');
+                    }
+                }
+            
+            }
+            .product-wrapper:nth-child(6){
+                .wrapper{
+                    div{
+                        background-image:url('../style/images/product-view-watch.png');
+                    }
+                }
+            
+            }
+            .product-wrapper:nth-child(7){
+                .wrapper{
+                    div{
+                        background-image:url('../style/images/product-view-bag2.png');
+                    }
+                }
+            
+            }
+            .product-wrapper:nth-child(8){
+                .wrapper{
+                    div{
+                        background-image:url('../style/images/product-view-jacket-black.png');
+                    }
+                }
+            
+            }
+            .product-wrapper:nth-child(9){
+                .wrapper{
+                    div{
+                        background-image:url('../style/images/product-view-bag3.png');
+                    }
+                }
+            
+            } 
+        
+        }
+    
+    }//end of products-grid
+} //end of mainContainer
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////
+.footer{
+    width: 1300px;
+    background-color: #F1F3F8;
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+    .footer-div-explore{
+        width: 20px;
+        p{
+            color:red;
+            display: inline;
+            width: 20px;
+        }
+    } 
+        .footer-table{
+            
+            table{
+                border-collapse: separate;
+                border-spacing: 15px;
+                th{
+                    color:#36c2ff;
+                    text-align: left;
+                }
+                .td-explore{
+                    width:20%;
+                    }
+                .td-sign-up{
+                    // width:196px;
+                    // display: flex;
+                    // flex-direction: column;
+                    vertical-align:top;
+                    input[type=text]{
+                        border: none;
+                        border-bottom: 2px solid black;
+                        display:block;
+                        height: 25px;
+                        width:196px;
+                        background-color: #F1F3F8;
+                    }
+                    input[type=password]{
+                        margin-top:20px;
+                        border: none;
+                        border-bottom: 2px solid black;
+                        display: block;
+                        height: 25px;
+                        width:196px;
+                        background-color: #F1F3F8;
+    
+                    }
+                    button{
+                        margin-top:20px;
+                        color:white;
+                        width:196px;
+                    }
+                }
+        }
+        hr {
+            border-top:1px dotted #000;
+            background-color: gray;
+            /*Rest of stuff here*/
+        }
+        } //end of footer table
+       
+    }
 

@@ -30,42 +30,108 @@
       height: 20px;
       width: 20px; }
 
-.products-grid {
-  background-color: red;
-  margin-top: 112px; }
-  .products-grid .row .product-wrapper {
-    border: solid;
-    height: 305px;
+.mainContainer {
+  margin-top: 115px;
+  margin-left: 150px; }
+  .mainContainer .left-wrapper-col-2 .category-row button {
+    width: 100%; }
+  .mainContainer .left-wrapper-col-2 .category-row .div-category {
+    width: 100%;
+    border: solid; }
+    .mainContainer .left-wrapper-col-2 .category-row .div-category .ul-categories {
+      list-style-type: none;
+      padding-left: 5px; }
+  .mainContainer .left-wrapper-col-2 .colors-row button {
+    width: 100%; }
+  .mainContainer .left-wrapper-col-2 .colors-row .div-colors {
+    width: 100%;
+    border: solid; }
+  .mainContainer .left-wrapper-col-2 .size-row button {
+    width: 100%; }
+  .mainContainer .left-wrapper-col-2 .size-row .div-size {
+    width: 100%;
+    border: solid; }
+  .mainContainer .left-wrapper-col-2 .price-row button {
+    width: 100%; }
+  .mainContainer .products-grid .row .product-wrapper {
     margin-bottom: 50px;
-    background-color: #F1F3F8;
     padding-bottom: 15px; }
-    .products-grid .row .product-wrapper div {
-      height: 45%;
-      width: 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain; }
-    .products-grid .row .product-wrapper p:nth-child(2) {
-      margin-top: 35px;
-      font-weight: bold; }
-    .products-grid .row .product-wrapper p:last-child {
-      color: #36C2FF;
-      font-weight: bold; }
-  .products-grid .row .product-wrapper:nth-child(1) div {
+    .mainContainer .products-grid .row .product-wrapper .wrapper {
+      background-color: #F1F3F8;
+      height: 305px; }
+      .mainContainer .products-grid .row .product-wrapper .wrapper div {
+        height: 45%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; }
+      .mainContainer .products-grid .row .product-wrapper .wrapper p:nth-child(2) {
+        margin-top: 35px;
+        font-weight: bold; }
+      .mainContainer .products-grid .row .product-wrapper .wrapper p:last-child {
+        color: #36C2FF;
+        font-weight: bold; }
+  .mainContainer .products-grid .row .product-wrapper:nth-child(1) .wrapper div {
     background-image: url("../style/images/product-view-jacket-blue.png"); }
-  .products-grid .row .product-wrapper:nth-child(2) div {
+  .mainContainer .products-grid .row .product-wrapper:nth-child(2) .wrapper div {
     background-image: url("../style/images/product-view-shoes.png"); }
-  .products-grid .row .product-wrapper:nth-child(3) div {
+  .mainContainer .products-grid .row .product-wrapper:nth-child(3) .wrapper div {
     background-image: url("../style/images/product-view-tshirt.png"); }
-  .products-grid .row .product-wrapper:nth-child(4) div {
+  .mainContainer .products-grid .row .product-wrapper:nth-child(4) .wrapper div {
     background-image: url("../style/images/product-view-belt.png"); }
-  .products-grid .row .product-wrapper:nth-child(5) div {
+  .mainContainer .products-grid .row .product-wrapper:nth-child(5) .wrapper div {
     background-image: url("../style/images/product-view-beg1.png"); }
-  .products-grid .row .product-wrapper:nth-child(6) div {
+  .mainContainer .products-grid .row .product-wrapper:nth-child(6) .wrapper div {
     background-image: url("../style/images/product-view-watch.png"); }
-  .products-grid .row .product-wrapper:nth-child(7) div {
+  .mainContainer .products-grid .row .product-wrapper:nth-child(7) .wrapper div {
     background-image: url("../style/images/product-view-bag2.png"); }
-  .products-grid .row .product-wrapper:nth-child(8) div {
+  .mainContainer .products-grid .row .product-wrapper:nth-child(8) .wrapper div {
     background-image: url("../style/images/product-view-jacket-black.png"); }
-  .products-grid .row .product-wrapper:nth-child(9) div {
+  .mainContainer .products-grid .row .product-wrapper:nth-child(9) .wrapper div {
     background-image: url("../style/images/product-view-bag3.png"); }
+
+.footer {
+  width: 1300px;
+  background-color: #F1F3F8;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px; }
+  .footer .footer-div-explore {
+    width: 20px; }
+    .footer .footer-div-explore p {
+      color: red;
+      display: inline;
+      width: 20px; }
+  .footer .footer-table table {
+    border-collapse: separate;
+    border-spacing: 15px; }
+    .footer .footer-table table th {
+      color: #36c2ff;
+      text-align: left; }
+    .footer .footer-table table .td-explore {
+      width: 20%; }
+    .footer .footer-table table .td-sign-up {
+      vertical-align: top; }
+      .footer .footer-table table .td-sign-up input[type=text] {
+        border: none;
+        border-bottom: 2px solid black;
+        display: block;
+        height: 25px;
+        width: 196px;
+        background-color: #F1F3F8; }
+      .footer .footer-table table .td-sign-up input[type=password] {
+        margin-top: 20px;
+        border: none;
+        border-bottom: 2px solid black;
+        display: block;
+        height: 25px;
+        width: 196px;
+        background-color: #F1F3F8; }
+      .footer .footer-table table .td-sign-up button {
+        margin-top: 20px;
+        color: white;
+        width: 196px; }
+  .footer .footer-table hr {
+    border-top: 1px dotted #000;
+    background-color: gray;
+    /*Rest of stuff here*/ }
