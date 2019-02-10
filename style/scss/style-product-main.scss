@@ -1,4 +1,7 @@
- 
+@import url("fonts/shared-fonts.css");
+@import "fonts/shared-fonts.css";
+
+
 .top-nav-bar-wrapper{
     display: flex;
     align-items: center;
@@ -27,9 +30,11 @@
             
                 li{
                     display: block;
+                   
                     a{
                         color:white;
                         display: block;
+                        font-family: sugarpunch;
                     }
                     a:hover{
                         color:#36c2ff;
@@ -101,11 +106,13 @@
             p:first-child{
                 text-align: center;
                 font-size: 26px;
+                font-family: sketch3d;
                
             }
             p:last-child{
                 text-align: center;
                 font-size: 18.5px;
+                font-family: sketch3d;
             }
         } //end of futured-items
 
@@ -257,11 +264,15 @@
     margin-bottom: 40px;
     p:first-child{
         font-weight:bold;
-        font-size:20px
+        font-size:20px;
+        font-family: sketch3d;
+
     }
     p:last-child{
         color:#808EB1;
         font-size:15px;
+        font-family: sketch3d;
+
     }
 }
 /////////////////////////////////////////////////////////////////
@@ -410,11 +421,15 @@
     margin-bottom: 40px;
     p:first-child{
         font-weight:bold;
-        font-size:20px
+        font-size:20px;
+        font-family: sketch3d;
+
     }
     p:last-child{
         color:#808EB1;
         font-size:15px;
+        font-family: sketch3d;
+
     }
 }
 
@@ -539,17 +554,8 @@
 .footer{
     width: 1300px;
     background-color: #F1F3F8;
-    display: flex;
-    justify-content: space-between;
     margin-top:50px;
-    .footer-div-explore{
-        width: 20px;
-        p{
-            color:red;
-            display: inline;
-            width: 20px;
-        }
-    } 
+   
         .footer-table{
             
             table{
@@ -592,11 +598,33 @@
                     }
                 }
         }
+     
+        } //end of footer table
         hr {
             border-top:1px dotted #000;
             background-color: gray;
             /*Rest of stuff here*/
         }
-        } //end of footer table
-       
-    }
+        .footer-bottom{
+            padding-top:22px;
+            height: 75px;
+            display: flex;
+            justify-content: space-between;
+            .footer-bottom-icons-wrapper{
+                width: 115px;
+                height: 28px;
+                display: flex;
+                justify-content: space-between;
+                div{
+                    width: 26px;
+                    height: 28px;
+                    background-image: url("../style/images/home-footer-icon-background.png");
+                    background-position: center;
+                    padding-left:8px;
+                    margin-top:4px;
+
+                }
+            }
+        }
+
+    }//end of footer section

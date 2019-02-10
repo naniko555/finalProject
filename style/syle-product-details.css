@@ -108,15 +108,7 @@
 .footer {
   width: 1300px;
   background-color: #F1F3F8;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 300px; }
-  .footer .footer-div-explore {
-    width: 20px; }
-    .footer .footer-div-explore p {
-      color: red;
-      display: inline;
-      width: 20px; }
+  margin-top: 50px; }
   .footer .footer-table table {
     border-collapse: separate;
     border-spacing: 15px; }
@@ -146,7 +138,24 @@
         margin-top: 20px;
         color: white;
         width: 196px; }
-  .footer .footer-table hr {
+  .footer hr {
     border-top: 1px dotted #000;
     background-color: gray;
     /*Rest of stuff here*/ }
+  .footer .footer-bottom {
+    padding-top: 22px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between; }
+    .footer .footer-bottom .footer-bottom-icons-wrapper {
+      width: 115px;
+      height: 28px;
+      display: flex;
+      justify-content: space-between; }
+      .footer .footer-bottom .footer-bottom-icons-wrapper div {
+        width: 26px;
+        height: 28px;
+        background-image: url("../style/images/home-footer-icon-background.png");
+        background-position: center;
+        padding-left: 8px;
+        margin-top: 4px; }

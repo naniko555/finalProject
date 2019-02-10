@@ -147,17 +147,8 @@ margin-bottom: 50px;
 .footer{
     width: 1300px;
     background-color: #F1F3F8;
-    display: flex;
-    justify-content: space-between;
     margin-top:50px;
-    .footer-div-explore{
-        width: 20px;
-        p{
-            color:red;
-            display: inline;
-            width: 20px;
-        }
-    } 
+   
         .footer-table{
             
             table{
@@ -200,14 +191,36 @@ margin-bottom: 50px;
                     }
                 }
         }
+     
+        } //end of footer table
         hr {
             border-top:1px dotted #000;
             background-color: gray;
             /*Rest of stuff here*/
         }
-        } //end of footer table
-       
-    }
+        .footer-bottom{
+            padding-top:22px;
+            height: 75px;
+            display: flex;
+            justify-content: space-between;
+            .footer-bottom-icons-wrapper{
+                width: 115px;
+                height: 28px;
+                display: flex;
+                justify-content: space-between;
+                div{
+                    width: 26px;
+                    height: 28px;
+                    background-image: url("../style/images/home-footer-icon-background.png");
+                    background-position: center;
+                    padding-left:8px;
+                    margin-top:4px;
+
+                }
+            }
+        }
+
+    }//end of footer section
 
 
 

@@ -1,3 +1,5 @@
+@import url("fonts/shared-fonts.css");
+@import url(fonts/shared-fonts.css);
 .top-nav-bar-wrapper {
   display: flex;
   align-items: center;
@@ -22,7 +24,8 @@
         display: block; }
         .top-nav-bar-wrapper .top-nav-bar .navigation-ul li a {
           color: white;
-          display: block; }
+          display: block;
+          font-family: sugarpunch; }
         .top-nav-bar-wrapper .top-nav-bar .navigation-ul li a:hover {
           color: #36c2ff; }
     .top-nav-bar-wrapper .top-nav-bar .home-logo-cart {
@@ -61,10 +64,12 @@
       height: 150px; }
       .product-colection .div-colection-items .futured-items p:first-child {
         text-align: center;
-        font-size: 26px; }
+        font-size: 26px;
+        font-family: sketch3d; }
       .product-colection .div-colection-items .futured-items p:last-child {
         text-align: center;
-        font-size: 18.5px; }
+        font-size: 18.5px;
+        font-family: sketch3d; }
     .product-colection .div-colection-items .items-wrapper {
       width: 1300px;
       margin-bottom: 20px;
@@ -180,10 +185,12 @@
   margin-bottom: 40px; }
   .popular-text-wrapper p:first-child {
     font-weight: bold;
-    font-size: 20px; }
+    font-size: 20px;
+    font-family: sketch3d; }
   .popular-text-wrapper p:last-child {
     color: #808EB1;
-    font-size: 15px; }
+    font-size: 15px;
+    font-family: sketch3d; }
 
 .popular-products-section {
   width: 1300px;
@@ -278,10 +285,12 @@
     margin-bottom: 40px; }
     .latest-news-section .lates-news-section-texts p:first-child {
       font-weight: bold;
-      font-size: 20px; }
+      font-size: 20px;
+      font-family: sketch3d; }
     .latest-news-section .lates-news-section-texts p:last-child {
       color: #808EB1;
-      font-size: 15px; }
+      font-size: 15px;
+      font-family: sketch3d; }
   .latest-news-section .latest-news {
     width: 1003px;
     height: 696px;
@@ -361,15 +370,7 @@
 .footer {
   width: 1300px;
   background-color: #F1F3F8;
-  display: flex;
-  justify-content: space-between;
   margin-top: 50px; }
-  .footer .footer-div-explore {
-    width: 20px; }
-    .footer .footer-div-explore p {
-      color: red;
-      display: inline;
-      width: 20px; }
   .footer .footer-table table {
     border-collapse: separate;
     border-spacing: 15px; }
@@ -399,7 +400,24 @@
         margin-top: 20px;
         color: white;
         width: 196px; }
-  .footer .footer-table hr {
+  .footer hr {
     border-top: 1px dotted #000;
     background-color: gray;
     /*Rest of stuff here*/ }
+  .footer .footer-bottom {
+    padding-top: 22px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between; }
+    .footer .footer-bottom .footer-bottom-icons-wrapper {
+      width: 115px;
+      height: 28px;
+      display: flex;
+      justify-content: space-between; }
+      .footer .footer-bottom .footer-bottom-icons-wrapper div {
+        width: 26px;
+        height: 28px;
+        background-image: url("../style/images/home-footer-icon-background.png");
+        background-position: center;
+        padding-left: 8px;
+        margin-top: 4px; }
