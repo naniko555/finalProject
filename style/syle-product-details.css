@@ -98,7 +98,6 @@
       margin: auto;
       margin-top: 50px;
       width: 100%;
-      margin-bottom: 60px;
       text-align: center; }
       .detail-wrapper .detail .cart-button-wrapper .btn.btn-primary {
         width: 181px;
@@ -108,7 +107,7 @@
 .footer {
   width: 1300px;
   background-color: #F1F3F8;
-  margin-top: 50px; }
+  margin-top: 150px; }
   .footer .footer-table table {
     border-collapse: separate;
     border-spacing: 15px; }
